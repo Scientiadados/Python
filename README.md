@@ -18,6 +18,12 @@ Ajudar você a:
 - Construir uma base consistente rumo a **Machine Learning e Inteligência Artificial**
 
 ---
+## 📂 Onde encontrar os arquivos
+
+Todos os frameworks, exemplos e materiais práticos deste projeto estão organizados dentro da pasta:
+
+```text
+/notebook
 
 ## 🧠 Como este repositório funciona
 
