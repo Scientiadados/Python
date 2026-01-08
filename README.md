@@ -22,8 +22,9 @@ Ajudar você a:
 
 Todos os frameworks, exemplos e materiais práticos deste projeto estão organizados dentro da pasta:
 
-```text
+```
 /notebook
+```
 
 ## 🧠 Como este repositório funciona
 
