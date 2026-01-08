@@ -26,6 +26,7 @@ Todos os frameworks, exemplos e materiais práticos deste projeto estão organiz
 /notebook
 ```
 
+---
 ## 🧠 Como este repositório funciona
 
 - Não há um currículo fixo ou linear  
