@@ -1,0 +1,7 @@
+data;vendedor;cidade;produto;quantidade;preco;total;ano;mes
+2024-01-05;Ana;SÃO PAULO;Notebook;2;3500;7000;2024;1
+2024-01-06;Bruno;RIO DE JANEIRO;Mouse;5;80;400;2024;1
+2024-01-07;Ana;SÃO PAULO;Teclado;3;150;450;2024;1
+2024-01-08;Carlos;BELO HORIZONTE;Notebook;1;4000;4000;2024;1
+2024-01-09;Bruno;RIO DE JANEIRO;Monitor;2;1200;2400;2024;1
+2024-01-10;Ana;SÃO PAULO;Mouse;4;80;320;2024;1
