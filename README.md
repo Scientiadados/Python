@@ -1,131 +1,72 @@
-# 📊 Notebook: Comandos Básicos do Pandas
+# 📌 Scientia Dados — Frameworks Práticos em Python
 
-Este notebook contém uma coleção de comandos essenciais do **Pandas** para manipulação e análise de dados. É um guia prático que cobre desde operações básicas até transformações mais avançadas.
+## 🚀 Sobre o projeto
 
-## 📋 Conteúdo
+Este repositório reúne **frameworks práticos e aplicáveis em Python**, pensados para resolver **problemas reais do dia a dia** em projetos, empresas e rotinas de desenvolvimento.
 
-O notebook está organizado nas seguintes seções:
-
-### 1️⃣ Inspeção Inicial
-Comandos fundamentais para entender seus dados:
-- `head()` - Primeiras linhas
-- `tail()` - Últimas linhas
-- `shape` - Dimensões do DataFrame
-- `columns` - Nomes das colunas
-- `info()` - Informações sobre tipos e valores nulos
-- `describe()` - Estatísticas descritivas
-
-### 2️⃣ Seleção de Colunas
-Como selecionar colunas específicas:
-- Seleção de uma coluna
-- Seleção de múltiplas colunas
-- Seleção usando variáveis
-
-### 4️⃣ Filtros
-Filtragem de dados com condições:
-- Filtros simples (`>`, `<`, `==`)
-- Filtros compostos (`&`, `|`)
-- Filtros com `isin()`
-
-### 5️⃣ Criando Colunas Novas
-Transformações e criação de novas colunas:
-- Operações matemáticas
-- Extração de componentes de data (ano, mês)
-- Conversão de tipos de data
-
-### 6️⃣ Alterando Valores
-Modificação de valores existentes:
-- Transformação de strings (`.str.upper()`)
-- Atualização condicional com `loc`
-
-### 7️⃣ Ordenação
-Ordenação de dados:
-- `sort_values()` - Ordenação crescente
-- `sort_values(ascending=False)` - Ordenação decrescente
-
-### 8️⃣ Agrupamentos (groupby)
-Agregações e análises por grupos:
-- Soma por grupo
-- Múltiplas agregações com `.agg()`
-
-### 🔟 Valores Nulos
-Tratamento de dados faltantes:
-- `isna().sum()` - Contagem de valores nulos
-- `fillna()` - Preenchimento de valores nulos
-- `dropna()` - Remoção de linhas com valores nulos
-
-### 1️⃣1️⃣ Conversão de Tipos
-Conversão entre tipos de dados:
-- `pd.to_datetime()` - Conversão para data
-- `.astype()` - Conversão de tipos numéricos
-
-### 1️⃣2️⃣ Renomear Colunas
-Renomeação de colunas com `rename()`
-
-### 1️⃣3️⃣ Exportar Dados
-Exportação para diferentes formatos:
-- `.to_excel()` - Exportar para Excel
-- `.to_csv()` - Exportar para CSV
-
-## 🚀 Como Usar
-
-### Pré-requisitos
-
-```bash
-# Instalar dependências (se usar Poetry)
-poetry install
-
-# Ou instalar manualmente
-pip install pandas openpyxl
-```
-
-### Executar o Notebook
-
-1. Abra o notebook `notebook/01_basic_command.ipynb` no Jupyter Notebook ou JupyterLab
-2. Execute as células na ordem
-3. O notebook carrega dados de uma planilha do Google Sheets automaticamente
-
-### Dados de Exemplo
-
-O notebook utiliza dados de vendas com as seguintes colunas:
-- `data` - Data da venda
-- `vendedor` - Nome do vendedor
-- `cidade` - Cidade da venda
-- `produto` - Nome do produto
-- `quantidade` - Quantidade vendida
-- `preco` - Preço unitário
-
-## 📁 Estrutura do Projeto
-
-```
-.
-├── notebook/
-│   └── 01_basic_command.ipynb  # Este notebook
-├── data/
-│   ├── resultado.csv           # Arquivo CSV exportado
-│   └── resultado.xlsx          # Arquivo Excel exportado
-└── README.md                   # Este arquivo
-```
-
-## 💡 Dicas
-
-- Sempre comece com a **inspeção inicial** dos dados antes de fazer transformações
-- Use `df.copy()` quando quiser criar uma cópia independente do DataFrame
-- Para filtros compostos, use parênteses: `(condição1) & (condição2)`
-- O método `inplace=True` modifica o DataFrame original (use com cuidado)
-
-## 📚 Recursos Adicionais
-
-- [Documentação oficial do Pandas](https://pandas.pydata.org/docs/)
-- [10 minutos para Pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
-- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
-
-## 📝 Notas
-
-- Os dados são carregados diretamente de uma planilha do Google Sheets
-- Os arquivos exportados são salvos na pasta `data/`
-- O notebook demonstra operações comuns, mas pode ser adaptado para seus próprios dados
+O foco não é seguir uma estrutura acadêmica tradicional, mas compartilhar **insights técnicos construídos a partir da experiência prática de mercado** — código que nasce da necessidade real, não apenas da teoria.
 
 ---
 
-**Última atualização:** 2024
+## 🎯 Objetivo
+
+Ajudar você a:
+
+- Ganhar **produtividade** com Python  
+- Estruturar soluções **claras, reutilizáveis e escaláveis**  
+- Desenvolver **raciocínio técnico sólido**, preparando o caminho para níveis mais avançados  
+- Construir uma base consistente rumo a **Machine Learning e Inteligência Artificial**
+
+---
+
+## 🧠 Como este repositório funciona
+
+- Não há um currículo fixo ou linear  
+- Cada framework aborda **um problema específico**  
+- Os temas surgem de **casos reais**, vividos no mercado  
+- O aprendizado é incremental: cada conceito prepara o terreno para o próximo  
+
+Este é um repositório vivo, que evolui conforme novas necessidades surgem.
+
+---
+
+## 🛠 Metodologia
+
+- **Teoria sempre acompanhada de prática**  
+- Exemplos claros, diretos e reproduzíveis  
+- Código pensado para ser **entendido, adaptado e usado**  
+- Complexidade apenas quando necessária — simplicidade como regra  
+
+Além do código, os frameworks são acompanhados por **vídeos curtos e didáticos**, aprofundando conceitos quando o tema exige.
+
+---
+
+## 📈 Para quem é este projeto
+
+- Pessoas que estão construindo ou consolidando sua jornada em Python  
+- Profissionais que buscam **organização e clareza no código**  
+- Quem quer sair do “script solto” para soluções mais estruturadas  
+- Quem deseja avançar, com base sólida, para **ML e IA generativa**
+
+---
+
+## 🧭 Visão de longo prazo
+
+Este repositório é parte de uma jornada maior:
+
+**Python prático → Engenharia de Dados → Machine Learning → IA aplicada**
+
+A fluidez nos níveis mais altos começa com fundamentos bem construídos.
+
+---
+
+## 🤝 Contribuições
+
+Ideias, melhorias e novos frameworks são bem-vindos.  
+Este projeto cresce com a troca de experiências reais.
+
+---
+
+## 🔖 Licença
+
+Uso educacional e prático. Consulte o arquivo `LICENSE` para mais detalhes.
