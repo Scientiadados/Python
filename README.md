@@ -75,6 +75,14 @@ Este projeto cresce com a troca de experiências reais.
 
 ---
 
+## 📕 Conteúdo
+
+1. **01 Basic Command** (`01_basic_command.ipynb`)
+
+---
+---
+---
+
 ## 🔖 Licença
 
 Uso educacional e prático. Consulte o arquivo `LICENSE` para mais detalhes.
